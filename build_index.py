@@ -56,6 +56,8 @@ for item in items:
         display_title = "Päivän tärkeimmät AI-uutiset"
     elif "Telco ai" in display_title:
         display_title = "Telco-sektorin AI-uutiset"
+    elif "Viikon ai" in display_title:
+        display_title = "Viikon tärkeimmät AI-uutiset"
         
     html_content += f"""            <li>
                 <a href="{item['file']}">{display_title}</a>
